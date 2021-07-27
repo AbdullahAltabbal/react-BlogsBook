@@ -4,7 +4,6 @@
 * {
   margin: 0;
   font-family: "Quicksand";
-  color: #333;
 }
 .navbar {
   padding: 20px;
@@ -72,7 +71,7 @@
 
 /* create new blog form */
 .create {
-  max-width: 400px;
+  max-width: 600px;
   margin: 0 auto;
   text-align: center;
 }
@@ -85,7 +84,7 @@
   color: #f1356d;
   margin-bottom: 30px;
 }
-.create input, .create textarea, .create select {
+ .create select {
   width: 100%;
   padding: 6px 10px;
   margin: 10px 0;

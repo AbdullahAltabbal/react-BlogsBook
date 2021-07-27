@@ -1,19 +1,18 @@
 import { Link } from "react-router-dom";
+import M from 'materialize-css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <h1>The Dojo Blog</h1>
-      <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/create" style={{ 
-          color: 'white', 
-          backgroundColor: '#f1356d',
-          borderRadius: '8px' 
-        }}>New Blog</Link>
+    <nav>
+      <div class="nav-wrapper ">
+        <a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Blogs Book</a>
+        <ul class="right hide-on-med-and-down">
+          <li><Link to="/"><i class="material-icons">home</i></Link></li>
+          <li><Link to="/create">New Blog</Link></li>
+        </ul>
       </div>
     </nav>
   );
 }
- 
+
 export default Navbar;
